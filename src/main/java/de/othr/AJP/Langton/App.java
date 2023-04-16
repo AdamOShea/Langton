@@ -6,6 +6,8 @@ package de.othr.AJP.Langton;
  */
 public class App 
 {
+
+    int[][] grid = new int[400][400];
     public static void main( String[] args )
     {
 
@@ -58,4 +60,6 @@ public class App
             ant.setDir(3);
         }
     }
+
+
 }
